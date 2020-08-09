@@ -1,8 +1,0 @@
-version: '3'
-services:
-  source-connector:
-    image: vertx_ha_lux_logeek_2020/source:0.1-SNAPSHOT
-  converter:
-    image: vertx_ha_lux_logeek_2020/converter:0.1-SNAPSHOT
-  destination-connector:
-    image: vertx_ha_lux_logeek_2020/destination:0.1-SNAPSHOT
