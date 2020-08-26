@@ -6,7 +6,7 @@ import io.vertx.core.Vertx;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class SourceConnector extends AbstractVerticle {
+public class SourceConnector extends AbstractVerticle { // TODO AfoReadyVerticle
 
     static int counter = 0;
 

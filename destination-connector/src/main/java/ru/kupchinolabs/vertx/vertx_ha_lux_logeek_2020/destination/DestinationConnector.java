@@ -8,7 +8,7 @@ import io.vertx.core.eventbus.Message;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class DestinationConnector extends AbstractVerticle {
+public class DestinationConnector extends AbstractVerticle { // TODO AfoReadyVerticle
 
     @Override
     public void init(Vertx vertx, Context context) {
